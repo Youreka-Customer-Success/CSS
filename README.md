@@ -16,13 +16,21 @@ other snippets to style your template and forms as needed.
 
 | CSS Sections                                             | Description                                             |
 | -------------------------------------------------------- | ------------------------------------------------------- |
-| [Font Size](#font-size)                                  | Adjust the text size on a Youreka Form                  |
-| [Button and Icon Size](#button-and-icon-size-adjustments)| Adjust the size value of Buttons and Icons              |
+| [Font Size](#font-stying)  				   | Adjust font style: font-family, color, size             |
+| [Font Styling](#font-styling)  			   | Adjust the text size on a Youreka Form                  |
+| [Button and Icon Adjustments](#button-and-icon-adjustments)| Adjust the format and size of Buttons and Icons              |
 | [Color Styling and Design](#color-and-design-styling)    | Add custom color styling to text, backgrounds, borders  |
 
 ## Full Expansions
 
-## Font Size
+## Font Styling
+
+
+### Font Family
+
+### Font Color
+
+### Font Size
 
 All font sizes in this section are set to be relative 
 to the .slds class font-size. If you want to change everything 
@@ -87,7 +95,8 @@ that has a size of 2em will have a font-size of 28px on the page
 ```
 <br/>
 
-## Button and Icon Size Adjustments
+
+## Button and Icon Adjustments
 <br/>
 This CSS Snippet section will allow you to customize various button and icon sizes on Youreka Forms.
 
@@ -129,7 +138,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
 }
 ```  
 
-### Button Icon Size
+### Button Icon Adjustments
 
 ```css
 .slds svg.slds-button__icon {
