@@ -16,9 +16,10 @@ other snippets to style your template and forms as needed.
 
 | CSS Sections                                             | Description                                             |
 | -------------------------------------------------------- | ------------------------------------------------------- |
-| [Text Styling](#font-styling)  			   | Adjust font family, text size, text color              |
+| [Text Styling](#text-styling)  			   | Adjust font family, text size, text color              |
 | [Button and Icon Adjustments](#button-and-icon-adjustments)| Adjust the format and size of Buttons and Icons              |
 | [Form Design](#form-design)    			   | Update form design including layout and styling  |
+
 
 ## Adjust Form Theme and Branding
 
