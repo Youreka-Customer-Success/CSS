@@ -161,7 +161,7 @@ For example, if .slds has a font-size of 14px, a another class
 that has a size of 2em will have a font-size of 28px on the page 
 (e.g. 2 x 14).
 
-#### Template Name
+#### Template Name Relative Font Size
 
 ```css
 .slds #formContent h1.formName {
@@ -169,7 +169,7 @@ that has a size of 2em will have a font-size of 28px on the page
 }
 ``` 
 
-#### Form Name
+#### Form Name Relative Font Size
 
 ```css
 .slds #formContent h3.slds-text-heading--small {
@@ -185,10 +185,17 @@ that has a size of 2em will have a font-size of 28px on the page
 }
 ```
 
-#### Section Header Font Size
+#### Section Header Relative Font Size
 
 ```css
 .form-section.slds-card h2 {
+	font-size: 1.28em;
+}
+```
+#### Specific Section Header Relative Font Size
+In order for this CSS to work, you need to replace the randomid with the randomid that corresponds to the section that you intend to adjust. disco__RandomId__c can be found on the Section record in Salesforce.
+```css
+[data-randomid="27d6b101"].form-section .title-form-section .title-text {
 	font-size: 1.28em;
 }
 ```
