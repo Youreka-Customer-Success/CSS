@@ -141,18 +141,13 @@ h3.form-number {
 
 ## Font Size
 
-All font sizes in this section are set to be relative 
-to the .slds class font-size. If you want to change everything 
-proportionally, change just the font-size in the .slds class.
+      
+### Set Base Font Size
+All font sizes in the sections are set to be relative 
+to this .slds class font-size. If you want to change everything 
+proportionally, change just the font-size in the .slds class here.
 If you want to change font-sizes relative other ones, change 
 the indvidual styles in the Set Relative Font Size section below.
-
-NOTE: The "em" unit of measure is proportional to the parent size. 
-For example, if .slds has a font-size of 14px, a another class 
-that has a size of 2em will have a font-size of 28px on the page 
-(e.g. 2 x 14).
-      
-### Set Proportional Font Size
 
 ```css
 .slds {
@@ -161,6 +156,10 @@ that has a size of 2em will have a font-size of 28px on the page
 ```    
 
 ## Set Relative Font Size
+NOTE: The "em" unit of measure is proportional to the parent size. 
+For example, if .slds has a font-size of 14px, a another class 
+that has a size of 2em will have a font-size of 28px on the page 
+(e.g. 2 x 14).
 
 #### Template Name
 
