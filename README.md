@@ -72,7 +72,79 @@ body {
 
 ### Font Color
 
-### Font Size
+```css
+/*Apply the font color to the document body*/
+body {
+ color: #ff9900;
+}
+/* Apply the font color to the form container */
+.slds-scope {
+ color: #ff9900;
+}
+/*Apply the font color for the headings, table and titles */
+.slds-scope h1,
+.slds-scope h2,
+.slds-scope h3,
+.slds-scope h4,
+.slds-scope h5,
+.slds-scope h6,
+.slds-scope th,
+.slds-scope td {
+ color: #ff9900;
+}
+/*Apply the font color to the form fields*/
+.slds-scope .slds-input {
+ color: #ff9900;
+}
+.containerBox input[type=text],
+[type=number],
+[type=date],
+[type=datetime-local],
+[type=url],
+[type=phone],
+[type=email] {
+ color: #ff9900;
+}
+/*Apply the font color to the buttons*/
+.slds-scope .slds-button_inverse,
+.slds-scope .slds-button_inverse:link,
+.slds-scope .slds-button_inverse:visited,
+.slds-scope .slds-button-group .slds-button_icon-inverse,
+.slds-scope .slds-button-group .slds-button_icon-inverse:link,
+.slds-scope .slds-button-group .slds-button_icon-inverse:visited,
+.slds-scope h2.title-form-section,
+.slds-scope .slds-select_container select {
+ color: #ff9900;
+}
+/*Apply the font color to the form labels*/
+.form-horizontal .control-label {
+ color: #ff9900!important;
+}
+.slds-scope .slds-form-element__label {
+ color: #ff9900;
+}
+ 
+.slds-scope h2.title-form-section {
+ color: #ff9900;
+}
+ 
+.slds-scope .save-button-container button {
+ border-color: #ff9900;
+}
+ 
+/* Apply Font Color to Form Title and Sub Title */
+h1.formName,
+h3.form-number {
+ color: #ff9900;
+}
+ 
+/* Apply Font Color to Free Text Question Type */
+.slds-scope div.control-group.slds-text-align_center span{
+ color: #ff9900 !important;
+}
+```    
+
+## Font Size
 
 All font sizes in this section are set to be relative 
 to the .slds class font-size. If you want to change everything 
@@ -85,7 +157,7 @@ For example, if .slds has a font-size of 14px, a another class
 that has a size of 2em will have a font-size of 28px on the page 
 (e.g. 2 x 14).
       
-## Set Proportional Font Size
+### Set Proportional Font Size
 
 ```css
 .slds {
