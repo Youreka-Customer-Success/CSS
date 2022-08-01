@@ -21,11 +21,6 @@ other snippets to style your template and forms as needed.
 | [Form Design](#form-design)    			   | Update form design including layout and styling  |
 
 
-## Adjust Form Theme and Branding
-
-
-
-
 
 
 ## Text Styling
@@ -33,7 +28,7 @@ other snippets to style your template and forms as needed.
 
 
 
-### Font Family
+#### Font Family
 
 ```css
 /*Import the font into the CSS*/
