@@ -31,7 +31,44 @@ other snippets to style your template and forms as needed.
 ## Text Styling
 
 
-### Font Family
+
+
+## Font Family
+
+```css
+/*Import the font into the CSS*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+/*Apply the font family to the document body*/
+body {
+ font-family: 'Indie Flower', cursive;
+}
+/* Apply the font family to the form container */
+.slds-scope {
+ font-family: 'Indie Flower', cursive;
+}
+/*Apply the font for the headings, table and titles */
+.slds-scope h1,
+.slds-scope h2,
+.slds-scope h3,
+.slds-scope h4,
+.slds-scope h5,
+.slds-scope h6,
+.slds-scope th,
+.slds-scope td {
+ font-family: 'Indie Flower', cursive;
+}
+/*Apply the font family to the form fields*/
+.containerBox input[type=text],
+[type=number],
+[type=date],
+[type=datetime-local],
+[type=url],
+[type=phone],
+[type=email] {
+ font-family: 'Indie Flower', cursive;
+}
+```    
+
 
 ### Font Color
 
