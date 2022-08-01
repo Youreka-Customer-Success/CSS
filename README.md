@@ -65,7 +65,7 @@ body {
 ```    
 
 
-### Font Color
+#### Font Color
 
 ```css
 /*Apply the font color to the document body*/
@@ -162,7 +162,7 @@ that has a size of 2em will have a font-size of 28px on the page
 
 ## Set Relative Font Size
 
-### Template Name
+#### Template Name
 
 ```css
 .slds #formContent h1.formName {
@@ -170,7 +170,7 @@ that has a size of 2em will have a font-size of 28px on the page
 }
 ``` 
 
-### Form Name
+#### Form Name
 
 ```css
 .slds #formContent h3.slds-text-heading--small {
@@ -178,7 +178,7 @@ that has a size of 2em will have a font-size of 28px on the page
 }
 ```
 
-### Attachment Upload Button Font Size
+#### Attachment Upload Button Font Size
 
 ```css
 .slds span.slds-button {
@@ -186,7 +186,7 @@ that has a size of 2em will have a font-size of 28px on the page
 }
 ```
 
-### Section Header Font Size
+#### Section Header Font Size
 
 ```css
 .form-section.slds-card h2 {
@@ -194,7 +194,7 @@ that has a size of 2em will have a font-size of 28px on the page
 }
 ```
 
-### Checkbox/Radio Button Option Label Text Size
+#### Checkbox/Radio Button Option Label Text Size
 
 ```css
 .slds .slds-form-element__control .slds-radio .slds-form-element__label,
@@ -209,7 +209,7 @@ that has a size of 2em will have a font-size of 28px on the page
 <br/>
 This CSS Snippet section will allow you to customize various button and icon sizes on Youreka Forms.
 
-### Save Buttons Size
+#### Save Buttons Size
 
 ```css
 .slds .buttons-fixed button {
@@ -218,7 +218,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
 ```     
 
 
-### Go To Page Select Icon Size 
+#### Go To Page Select Icon Size 
 
 ```css
 .slds .buttons-fixed .slds-select.goToPage,
@@ -229,7 +229,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
 }
 ```     
 
-### Select Arrows Size 
+#### Select Arrows Size 
 
 ```css
 .slds #mainForm .slds-select_container:before,
@@ -247,7 +247,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
 }
 ```  
 
-### Button Border Radius
+#### Button Border Radius
 
 ```css
 .slds-scope .slds-button_inverse,
@@ -268,7 +268,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
  border: 0;
 }
 ```  
-### Button Icon Adjustments
+#### Button Icon Adjustments
 
 ```css
 .slds svg.slds-button__icon {
@@ -279,7 +279,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
 
 
 
-### Attachment Upload Button
+#### Attachment Upload Button
 
 ```css
 .slds button.slds-button {
@@ -287,7 +287,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
 }
 ```
 
-### Checkbox/Radio Button Size
+#### Checkbox/Radio Button Size
 
 ```css
 .slds .slds-form-element__control .slds-radio .slds-radio--faux,
@@ -297,7 +297,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
 }
 ```
 
-### Checkbox & Radio Button check size
+#### Checkbox & Radio Button check size
 
 ```css
 .slds .slds-form-element__control .slds-radio [type="radio"]:checked + .slds-radio--faux::after, 
@@ -311,7 +311,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
 }
 ```
 
-### Date Input Selector Icon
+#### Date Input Selector Icon
 
 ```css
 .slds .slds-form-element .input-glyphicon-calendar {
@@ -325,7 +325,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
 <br/>
 This CSS Snippet section will allow you to customize the color of text, backgrounds, and borders of various elements on Youreka Forms.
 
-### Save Buttons Bar
+#### Save Buttons Bar
 
 ```css
 .slds .buttons-fixed {
@@ -336,7 +336,7 @@ This CSS Snippet section will allow you to customize the color of text, backgrou
 
 
 
-### Form Template Name
+#### Form Template Name
 
 ```css
 h1.formName,
@@ -346,7 +346,7 @@ h3.slds-text-heading--small {
 ```
 
 
-### Form Background Color
+#### Form Background Color
 
 ```css
 body#complete-form.slds {
@@ -354,7 +354,7 @@ body#complete-form.slds {
 }
 ```
 
-### Form Background Image
+#### Form Background Image
 
 ```css
 body#complete-form main{
@@ -369,7 +369,7 @@ h1.formName {
 }
 ```
 
-### Form Logo
+#### Form Logo
 
 ```css
 @media screen and (min-width: 400px) {
@@ -392,7 +392,7 @@ h1.formName {
 }
 ```
 
-### Form Width
+#### Form Width
 
 ```css
 .containerBox {
@@ -401,7 +401,7 @@ h1.formName {
 ```
 
 
-### Section Header Font Color
+#### Section Header Font Color
 
 ```css
 .slds .currentPageContainer { 
@@ -410,7 +410,7 @@ h1.formName {
 ```
 
 
-### Section Header and Footer Background Color & Border Color
+#### Section Header and Footer Background Color & Border Color
 
 ```css
 .slds .slds-card { /* ELEMENTS: Section Header and Footer */
@@ -420,7 +420,7 @@ h1.formName {
 ```
 
 
-### Section Body Background, Border, and Text Color
+#### Section Body Background, Border, and Text Color
 
 ```css
 .slds .slds-card__body.OR-card__body.slds-p-left--small { 
@@ -430,7 +430,7 @@ h1.formName {
 }
 ```
 
-### Attachments Count Badge, Attachments, Multi-select Picklist Options Text & Background Color
+#### Attachments Count Badge, Attachments, Multi-select Picklist Options Text & Background Color
 
 ```css
 .slds .controls .selected-files .file-preview, 
@@ -441,7 +441,7 @@ h1.formName {
 }
 ```
 
-### Checkbox and Radio Button Label Colors
+#### Checkbox and Radio Button Label Colors
 
 ```css
 .slds .slds-form-element__control .slds-form-element__label,
