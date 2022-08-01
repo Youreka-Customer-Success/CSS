@@ -143,6 +143,27 @@ This CSS Snippet section will allow you to customize various button and icon siz
 }
 ```  
 
+### Button Border Radius
+
+```css
+.slds-scope .slds-button_inverse,
+.slds-scope .slds-button_inverse:link,
+.slds-scope .slds-button_inverse:visited,
+.slds-scope .slds-button-group .slds-button_icon-inverse,
+.slds-scope .slds-button-group .slds-button_icon-inverse:link,
+.slds-scope .slds-button-group .slds-button_icon-inverse:visited {
+ border-radius: 15px;
+ background: #ff9900;
+ color: #fff;
+ border: 0;
+}
+.slds-scope .slds-button_inverse:hover,
+.slds-scope .slds-button_inverse:focus {
+ color: #fff;
+ background: #ff6600;
+ border: 0;
+}
+```  
 ### Button Icon Adjustments
 
 ```css
@@ -151,6 +172,8 @@ This CSS Snippet section will allow you to customize various button and icon siz
 	width: 1.143em;
 }
 ```  
+
+
 
 ### Attachment Upload Button
 
@@ -205,6 +228,8 @@ This CSS Snippet section will allow you to customize the color of text, backgrou
     background-color: #009ACD;
 }
 ```
+
+
 
 
 ### Form Template Name
