@@ -155,7 +155,7 @@ the indvidual styles in the Set Relative Font Size section below.
 }
 ```    
 
-## Set Relative Font Size
+### Set Relative Font Size
 NOTE: The "em" unit of measure is proportional to the parent size. 
 For example, if .slds has a font-size of 14px, a another class 
 that has a size of 2em will have a font-size of 28px on the page 
