@@ -33,7 +33,7 @@ other snippets to style your template and forms as needed.
 
 
 
-## Font Family
+### Font Family
 
 ```css
 /*Import the font into the CSS*/
