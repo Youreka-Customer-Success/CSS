@@ -225,6 +225,52 @@ body#complete-form.slds {
 }
 ```
 
+### Form Background Image
+
+```css
+body#complete-form main{
+ background: url('https://2j5zg2h1itk3tosw21k7acb1-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/formBgImage.jpg') no-repeat top left;
+ background-size: cover;
+ background-attachment: fixed;
+}
+ 
+h1.formName {
+ color: #fdfdfd;
+ text-shadow: 2px 2px #d3d3d3;
+}
+```
+
+### Form Logo
+
+```css
+@media screen and (min-width: 400px) {
+ .buttons-fixed:before {
+ /* Replace the URL between the '' a a URL to your own image. */
+ content: url('https://cdn2.hubspot.net/hubfs/2381843/Youreka/yWhiteLogo-711341-edited.png');
+ 
+ /* If your image doesn't have a background color, you can set it here. */
+ background: #913A93;
+ 
+ display: block;
+ width: 66px;
+ height: 62px;
+ top: 0;
+ right: 0;
+ position: absolute;
+ padding-top: 10px;
+ padding-left: 20px;
+ }
+}
+```
+
+### Form Width
+
+```css
+.containerBox {
+ width: 750px;
+}
+```
+
 
 ### Section Header Font Color
 
