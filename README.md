@@ -339,7 +339,53 @@ This CSS Snippet section will allow you to customize the color of text, backgrou
 }
 ```
 
+```css
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox .slds-checkbox_faux {
+width: 30px;
+height: 30px;
+margin: 0px;
+}
 
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox--faux::after, 
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox__label .slds-checkbox--faux::after, 
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox__label .slds-checkbox_faux::after, 
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox_faux::after, 
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] ~ .slds-checkbox--faux::after, 
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] ~ .slds-checkbox_faux::after,
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-checkbox [type="checkbox"] ~ .slds-checkbox_faux::after {
+height: 10px;
+width: 20px;
+border-bottom: 5px solid #0070d2;
+border-left: 5px solid #0070d2;
+}
+
+@media screen and (max-width: 768px) {
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox__label.boolean-checkbox {
+justify-content: center;
+}
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element.formInput.answerValue.table-checkbox {
+margin: auto;
+}
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox .slds-checkbox_faux {
+width: 60px;
+height: 60px;
+margin: 0px;
+}
+
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox--faux::after, 
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox__label .slds-checkbox--faux::after, 
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox__label .slds-checkbox_faux::after, 
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox_faux::after, 
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] ~ .slds-checkbox--faux::after, 
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] ~ .slds-checkbox_faux::after,
+.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-checkbox [type="checkbox"] ~ .slds-checkbox_faux::after {
+height: 20px;
+width: 40px;
+border-bottom: 10px solid #0070d2;
+border-left: 10px solid #0070d2;
+} 
+}
+```
 
 
 #### Form Template Name
