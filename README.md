@@ -339,6 +339,144 @@ This CSS Snippet section will allow you to customize the color of text, backgrou
 }
 ```
 
+
+#### Reduce White Space Between Questions
+
+```css
+/******************
+* Less Whitespace *
+******************/
+/* replace sectionRandomId with the 8-character alphanumeric disco__Section__c.disco__RandomID__c field of the desired section. */
+.slds-scope .form-section.slds-card[data-randomid="sectionRandomId"] {
+background-color: transparent;
+border: none;
+box-shadow: none;
+margin: 0px;
+}
+
+.slds-scope #formContent .form-section[data-randomid="sectionRandomId"] .slds-card__footer {
+padding: 0px;
+margin: 0px;
+border-width: 0px;
+}
+
+.slds-scope #formContent .form-section[data-randomid="sectionRandomId"] .slds-card__body.OR-card__body {
+border-radius: 0.25rem;
+}
+
+.slds-scope .form-section[data-randomid="sectionRandomId"] .slds-card__footer .slds-m-top_small {
+margin: 0px;
+}
+
+.form-section[data-randomid="sectionRandomId"] .control-group .clear-float {
+line-height: 2px; /* increase pixels for more vertical space between questions*/
+}
+```
+
+
+#### Remove Gear Icon and Menu from View Form page
+
+```css
+#mainForm #moreActionsBtn {
+    display: none;
+}
+```
+
+
+#### Prevent Users from Removing Linked Sections from Records
+
+```css
+.remove-linked-section-container {
+display: none!important;
+}
+```
+
+
+#### Remove "Refresh" Icon from Formula Fields
+
+```css
+.slds-scope .slds-button.js-refresh-formula {
+display: none;
+}
+.slds-scope .control-group .controls .slds-form-element__control.formula-field input.slds-input {
+width: 100%;
+}
+```
+
+
+#### Prevent Users from Inserting New Records
+
+The following snippet allows you to hide the Add button while using Linked Sections with Compact Cards.
+
+```css
+#formContent .ls-card-add-container {
+display: none;
+}
+```
+
+To hide the Add button of a specific linked section with Compact cards, Inspect the element for its data-randomid and use in the following:
+
+```css
+#formContent .ls-card-add-container[data-randomid="insert data-randomid here"] { 
+display: none; 
+}
+```
+
+The following snippet allows you to hide the Add button while using Linked Sections WITHOUT Compact Cards
+
+```css
+#formContent .form-section .slds-button.add-linked-section {
+display: none;
+}
+```
+
+In addition to removing the add button from linked sections, it is also common for admins to wish to remove the Trash Bin icon from linked sections, which would prevents end users from deleting linked sections. This can be done by adding the following CSS.
+
+```css
+.remove-linked-section-container {
+display: none!important;
+}
+```
+
+
+#### Highlight Required Fields by Adding Red Borders
+
+```css
+.slds-scope .form-section .control-group [required]{
+border-color: red;
+border-width: 2px;
+}
+#formContent h1.formName,
+#formContent h3.form-number {
+display: none;
+}
+```
+
+
+#### Change The Appearence of Formula Refresh Buttons
+
+```css
+#formContent .slds-button.slds-button_icon.js-refresh-formula.slds-button_icon-border.input-btn {
+	width: 40px;
+	height: 40px;
+	right: -30px
+}#formContent .slds-button.slds-button_icon.js-refresh-formula.slds-button_icon-border.input-btn::before {
+	content: "Refresh";
+	position: relative;
+	top: 24px;
+	font-size: 0.8em;
+}#formContent .slds-button.slds-button_icon.js-refresh-formula.slds-button_icon-border.input-btn .js-formula-icon {
+	fill: #c9c7c5;
+  background-color: #c9c7c5;
+	stroke: #c9c7c5;
+	border-radius: 0.5em;
+	position: relative;
+	top: -0.8em;
+}
+```
+
+
+#### Make Checkboxes Larger
 ```css
 .slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox .slds-checkbox_faux {
 width: 30px;
