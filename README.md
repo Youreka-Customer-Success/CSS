@@ -526,6 +526,25 @@ border-left: 10px solid #0070d2;
 ```
 
 
+#### Adjust The Size of Long Text Question Boxes
+
+```css
+/*******************
+* Larger Long Text *
+*******************/
+#formContent .form-section .controls:not(.controls-table) .slds-form-element.long-text-container {
+width: calc(100% - 1em); /* change the number in the 1em to make the Long Text wider or narrower*/
+max-width: calc(100% - 1em); /* change the number in the 1em to make the Long Text wider or narrower*/
+height: 12em; /* change the number here to make the Long Text taller or shorter*/
+}
+
+.form-section .control-group .controls:not(.controls-table) .slds-form-element.long-text-container .slds-form-element__control,
+.form-section .control-group .controls:not(.controls-table) .slds-form-element.long-text-container .slds-form-element__control textarea {
+height: 100%;
+}
+```
+
+
 #### Form Template Name
 
 ```css
