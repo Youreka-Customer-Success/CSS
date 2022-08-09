@@ -653,8 +653,7 @@ h1.formName {
 #### Checkbox and Radio Button Label Colors
 
 ```css
-.slds .slds-form-element__control .slds-form-element__label,
-.slds .slds-card__body.OR-card__body.slds-p-left--small  .control-label { 
-    color: #fff !important;  
-} 
+.slds-scope .slds-form-element__control .slds-checkbox .slds-form-element__label, .slds-scope .slds-form-element__control .radio-list .slds-form-element__label { 
+    color: #FFA500 !important;  
+}
 ```
