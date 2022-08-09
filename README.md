@@ -313,7 +313,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
 }
 ```
 
-#### Checkbox check size
+#### Checkbox Check Size
 
 ```css
 .slds-scope .slds-checkbox [type="checkbox"]:checked + .slds-checkbox__label .slds-checkbox_faux::after {
