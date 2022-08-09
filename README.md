@@ -644,10 +644,10 @@ span.title-text {
 #### Section Body Background, Border, and Text Color
 
 ```css
-.slds .slds-card__body.OR-card__body.slds-p-left--small { 
-    background-color: #75A05F;
-    border-color: #94E9E8;
-    color: #fff;  
+.slds-card__body.OR-card__body.slds-p-horizontal_xx-small {
+    background-color: lightblue;
+    border-color: darkblue;
+    color: red; 
 }
 ```
 
