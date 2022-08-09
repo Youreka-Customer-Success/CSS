@@ -313,23 +313,18 @@ This CSS Snippet section will allow you to customize various button and icon siz
 }
 ```
 
-#### Checkbox & Radio Button check size
+#### Checkbox check size
 
 ```css
-/* Adjust Radio Button Outer Size */
-.slds .slds-form-element__control .slds-radio .slds-radio_icon {
-	height: 60px !important;
-  	width: 60px !important;
-}
-/* Adjust Radio Button Inner Icon Size */
-.slds-scope .slds-icon_small {
-	width: 3.3rem !important;
-        height: 3.3rem !important;
-}
-/* Adjust Checkbox Size */
-.slds .slds-form-element__control .slds-checkbox .slds-checkbox_faux {
-	width: 3.3em;
-	height: 3.3em;
+.slds-scope .slds-checkbox [type="checkbox"]:checked + .slds-checkbox__label .slds-checkbox_faux::after {
+height: 12px;
+width: 24px;
+position: absolute;
+top: 43%;
+left: 50%;
+transform: translate3d(-50%,-50%,0) rotate(-50deg);
+border-bottom: 2px solid #0070d2;
+border-left: 2px solid #0070d2;
 }
 ```
 
