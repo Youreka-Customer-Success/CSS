@@ -285,11 +285,12 @@ This CSS Snippet section will allow you to customize various button and icon siz
 
 
 
-#### Attachment Upload Button
+#### Attachment Upload Button Size
 
 ```css
-.slds button.slds-button {
-	line-height: 2.385em;
+.slds-scope .slds-file-selector_files .slds-file-selector__button {
+    max-height: 2.625rem;
+    line-height: 2.625rem;
 }
 ```
 
