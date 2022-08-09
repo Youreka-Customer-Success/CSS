@@ -331,7 +331,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
 <br/>
 This CSS Snippet section will allow you to customize the color of text, backgrounds, and borders of various elements on Youreka Forms.
 
-#### Save Buttons Bar
+#### Save Buttons Bar/ Header Color
 
 ```css
 .slds .buttons-fixed {
