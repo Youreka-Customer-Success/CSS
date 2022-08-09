@@ -613,8 +613,8 @@ h1.formName {
 #### Section Header Font Color
 
 ```css
-.slds .currentPageContainer { 
-    color: #ecf2fb;  
+span.title-text { 
+    color: #4578c4;  
 }
 ```
 
