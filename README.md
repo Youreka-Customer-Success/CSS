@@ -309,12 +309,12 @@ This CSS Snippet section will allow you to customize various button and icon siz
 /* Adjust Radio Button Outer Size */
 .slds .slds-form-element__control .slds-radio .slds-radio_icon {
 	height: 60px !important;
-  width: 60px !important;
+  	width: 60px !important;
 }
 /* Adjust Radio Button Inner Icon Size */
 .slds-scope .slds-icon_small {
 	width: 3.3rem !important;
-  height: 3.3rem !important;
+        height: 3.3rem !important;
 }
 /* Adjust Checkbox Size */
 .slds .slds-form-element__control .slds-checkbox .slds-checkbox_faux {
