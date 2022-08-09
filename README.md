@@ -558,7 +558,7 @@ h3.slds-text-heading--small {
 #### Form Background Color
 
 ```css
-body#complete-form.slds {
+body#complete-form main {
     background-color: #94E9E8;
 }
 ```
