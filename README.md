@@ -317,7 +317,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
 }
 ```
 
-#### Date Input Selector Icon Spacing
+#### Date Input Selector Icon Size
 
 ```css
 .slds .slds-form-element .input-glyphicon-calendar {
