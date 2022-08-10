@@ -172,8 +172,8 @@ that has a size of 2em will have a font-size of 28px on the page
 #### Form Name Relative Font Size
 
 ```css
-.slds #formContent h3.slds-text-heading--small {
-	font-size: 1.286em;
+.slds-text-heading_small.slds-m-vertical_small.form-number {
+	font-size: 1.8em;
 }
 ```
 
