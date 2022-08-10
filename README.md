@@ -634,9 +634,22 @@ span.title-text {
 #### Section Header and Footer Background Color & Border Color
 
 ```css
-.slds .slds-card { /* ELEMENTS: Section Header and Footer */
-    background-color: #418638;
-    border-color: #94E9E8;
+/* Header Background Color */
+.slds-scope .slds-card__header.OR-card__header {
+    background-color: lightsalmon;
+    border-color: lightsalmon;
+    margin-bottom: 4px;
+}
+
+/* Header Background Color */
+.slds-scope #formContent .slds-card.form-section {
+    background-color: lightsalmon;
+}
+
+/* Footer Background Color */
+.slds-card__footer.OR-card__footer {
+    background-color: lightsalmon;
+    border-color: lightsalmon;
 }
 ```
 
