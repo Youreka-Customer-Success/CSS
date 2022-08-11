@@ -221,7 +221,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
 
 ```css
 .slds .buttons-fixed button {
-	line-height: 2.5em;
+	line-height: 3.5em;
 } 
 ```     
 
