@@ -198,7 +198,7 @@ span.slds-file-selector__button.slds-button.slds-button_neutral.OR-upload-button
 In order for this CSS to work, you need to replace the randomid with the randomid that corresponds to the section that you intend to adjust. disco__RandomId__c can be found on the Section record in Salesforce.
 ```css
 [data-randomid="27d6b101"].form-section .title-form-section .title-text {
-	font-size: 1.28em;
+	font-size: 2.28em;
 }
 ```
 
