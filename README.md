@@ -180,9 +180,11 @@ that has a size of 2em will have a font-size of 28px on the page
 #### Attachment Upload Button Font Size
 
 ```css
-.slds span.slds-button {
-	line-height: 2.43em;
-}
+span.slds-file-selector__button.slds-button.slds-button_neutral.OR-upload-button_nowrap {
+	font-size: 2.43em;
+        line-height: 2.43em;
+        max-height: 2.43em
+ }
 ```
 
 #### Section Header Relative Font Size
