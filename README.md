@@ -217,7 +217,7 @@ In order for this CSS to work, you need to replace the randomid with the randomi
 <br/>
 This CSS Snippet section will allow you to customize various button and icon sizes on Youreka Forms.
 
-#### Save Buttons Size
+#### Header Buttons Size
 
 ```css
 .slds .buttons-fixed button {
