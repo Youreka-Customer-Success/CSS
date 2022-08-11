@@ -207,7 +207,7 @@ In order for this CSS to work, you need to replace the randomid with the randomi
 ```css
 .slds .slds-form-element__control .slds-radio .slds-form-element__label,
 .slds .slds-form-element__control .slds-checkbox .slds-form-element__label {
-	font-size: 1em;
+	font-size: 1.28em;
 }
 ```
 <br/>
