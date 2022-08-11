@@ -191,7 +191,7 @@ span.slds-file-selector__button.slds-button.slds-button_neutral.OR-upload-button
 
 ```css
 .form-section.slds-card h2 {
-	font-size: 1.28em;
+	font-size: 2.28em;
 }
 ```
 #### Specific Section Header Relative Font Size
