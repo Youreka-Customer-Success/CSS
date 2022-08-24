@@ -444,13 +444,7 @@ display: none;
 }
 ```
 
-In addition to removing the add button from linked sections, it is also common for admins to wish to remove the Trash Bin icon from linked sections, which would prevents end users from deleting linked sections. This can be done by adding the following CSS.
 
-```css
-.remove-linked-section-container {
-display: none!important;
-}
-```
 
 
 #### Highlight Required Fields by Adding Red Borders
