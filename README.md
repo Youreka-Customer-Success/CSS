@@ -100,7 +100,7 @@ body {
 [type=email] {
  color: #ff9900;
 }
-/*Apply the font color to the buttons*/
+/*Apply the font color to the buttons labels*/
 .slds-scope .slds-button_inverse,
 .slds-scope .slds-button_inverse:link,
 .slds-scope .slds-button_inverse:visited,
