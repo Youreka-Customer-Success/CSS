@@ -31,36 +31,8 @@ other snippets to style your template and forms as needed.
 #### Font Family
 
 ```css
-/*Import the font into the CSS*/
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-/*Apply the font family to the document body*/
-body {
- font-family: 'Indie Flower', cursive;
-}
-/* Apply the font family to the form container */
-.slds-scope {
- font-family: 'Indie Flower', cursive;
-}
-/*Apply the font for the headings, table and titles */
-.slds-scope h1,
-.slds-scope h2,
-.slds-scope h3,
-.slds-scope h4,
-.slds-scope h5,
-.slds-scope h6,
-.slds-scope th,
-.slds-scope td {
- font-family: 'Indie Flower', cursive;
-}
-/*Apply the font family to the form fields*/
-.containerBox input[type=text],
-[type=number],
-[type=date],
-[type=datetime-local],
-[type=url],
-[type=phone],
-[type=email] {
- font-family: 'Indie Flower', cursive;
+body, p, h1, h2, h3, h4, h5, h6, div, span, th, td {
+font-family: cursive !important;
 }
 ```    
 
@@ -68,74 +40,8 @@ body {
 #### Font Color
 
 ```css
-/*Apply the font color to the document body*/
-body {
- color: #ff9900;
-}
-/* Apply the font color to the form container */
-.slds-scope {
- color: #ff9900;
-}
-/*Apply the font color for the headings, table and titles */
-.slds-scope h1,
-.slds-scope h2,
-.slds-scope h3,
-.slds-scope h4,
-.slds-scope h5,
-.slds-scope h6,
-.slds-scope th,
-.slds-scope td {
- color: #ff9900;
-}
-/*Apply the font color to the form fields*/
-.slds-scope .slds-input {
- color: #ff9900;
-}
-.containerBox input[type=text],
-[type=number],
-[type=date],
-[type=datetime-local],
-[type=url],
-[type=phone],
-[type=email] {
- color: #ff9900;
-}
-/*Apply the font color to the buttons labels*/
-.slds-scope .slds-button_inverse,
-.slds-scope .slds-button_inverse:link,
-.slds-scope .slds-button_inverse:visited,
-.slds-scope .slds-button-group .slds-button_icon-inverse,
-.slds-scope .slds-button-group .slds-button_icon-inverse:link,
-.slds-scope .slds-button-group .slds-button_icon-inverse:visited,
-.slds-scope h2.title-form-section,
-.slds-scope .slds-select_container select {
- color: #ff9900;
-}
-/*Apply the font color to the form labels*/
-.form-horizontal .control-label {
- color: #ff9900!important;
-}
-.slds-scope .slds-form-element__label {
- color: #ff9900;
-}
- 
-.slds-scope h2.title-form-section {
- color: #ff9900;
-}
- 
-.slds-scope .save-button-container button {
- border-color: #ff9900;
-}
- 
-/* Apply Font Color to Form Title and Sub Title */
-h1.formName,
-h3.form-number {
- color: #ff9900;
-}
- 
-/* Apply Font Color to Free Text Question Type */
-.slds-scope div.control-group.slds-text-align_center span{
- color: #ff9900 !important;
+body, p, h1, h2, h3, h4, h5, h6, div, span, th, td, a {
+color: #ff9900 !important;
 }
 ```    
 
@@ -150,8 +56,8 @@ If you want to change font-sizes relative other ones, change
 the indvidual styles in the Set Relative Font Size section below.
 
 ```css
-.slds {
-	font-size: 24px !important; 
+.slds-scope *, .slds-scope :after, .slds-scope :before {
+font-size: 24px !important;
 }
 ```    
 
