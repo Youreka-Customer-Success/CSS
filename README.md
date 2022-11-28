@@ -96,8 +96,8 @@ span.slds-file-selector__button.slds-button.slds-button_neutral.OR-upload-button
 #### Section Header Relative Font Size
 
 ```css
-.form-section.slds-card h2 {
-	font-size: 2.28em;
+.title-text {
+font-size: 2.28em;
 }
 ```
 #### Specific Section Header Relative Font Size
@@ -111,10 +111,7 @@ In order for this CSS to work, you need to replace the randomid with the randomi
 #### Checkbox/Radio Button Option Label Text Size
 
 ```css
-.slds .slds-form-element__control .slds-radio .slds-form-element__label,
-.slds .slds-form-element__control .slds-checkbox .slds-form-element__label {
-	font-size: 1.28em;
-}
+.slds-form-element__label.slds-radio__label.slds-radio__label_target, .slds-form-element__label {font-size: 1.5em !important;}
 ```
 <br/>
 
@@ -123,46 +120,22 @@ In order for this CSS to work, you need to replace the randomid with the randomi
 <br/>
 This CSS Snippet section will allow you to customize various button and icon sizes on Youreka Forms.
 
-#### Header Buttons Size
+#### Header Buttons Size (Desktop Only)
 
 ```css
-.slds .buttons-fixed button {
-	line-height: 3.5em;
-} 
+.slds-scope .buttons-fixed button {line-height: 3.5em;} 
 ```     
+   
 
-
-#### Go To Page Select Icon Size 
-
-```css
-.slds .buttons-fixed .slds-select.goToPage,
-.slds .buttons-fixed .pagination-container .slds-select_container,
-.slds .buttons-fixed .pagination-container .slds-select_container select {
-	width: 7.15em;
-	height: 2.44em;
-}
-```     
-
-#### Select Arrows Size 
+#### Select/ Next Page Arrows Size 
 
 ```css
-.slds #mainForm .slds-select_container:before,
-.slds #mainForm .slds-select_container:after {
-  border-left-width: 0.214em;
-  border-right-width: 0.214em;
-}
-.slds #mainForm .slds-select_container:before {
-  border-bottom-width: 0.357em;
-  top: calc((2.429em / 2) - 0.429em);
-}
-.slds #mainForm .slds-select_container:after {
-  	border-top-width: 0.357em;
-  	bottom: calc((2.429em / 2) - 0.429em);
-}
+.nextBtn .slds-button__icon {width: 2.15em !important;height: 2.44em !important;}.prevBtn .slds-button__icon {width: 2.15em !important;height: 2.44em !important;}
 ```  
 
-#### Button Border Radius
+#### Button Border Radius & Color
 
+##### Desktop
 ```css
 .slds-scope .slds-button_inverse,
 .slds-scope .slds-button_inverse:link,
@@ -182,6 +155,10 @@ This CSS Snippet section will allow you to customize various button and icon siz
  border: 0;
 }
 ```  
+##### Mobile
+```css
+.slds-button.slds-button_neutral.js-mobile-save.slds-m-top_x-large {border-radius: 15px;background: #ff9900;color: #fff;border: 0;}
+``` 
 #### Button Icon Adjustments
 
 ```css
