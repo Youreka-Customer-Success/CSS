@@ -159,18 +159,15 @@ Mobile
 ```css
 .slds-button.slds-button_neutral.js-mobile-save.slds-m-top_x-large {border-radius: 15px;background: #ff9900;color: #fff;border: 0;}
 ``` 
-#### Button Icon Adjustments
+#### Button Icon Adjustments (Calender Icon, Geolocation Icon, Upload Files Icon)
 
 ```css
-.slds svg.slds-button__icon {
-	height: 1.143em;
-	width: 1.143em;
-}
+.slds-scope .slds-button__icon_left, .slds-button__icon_large, .input-calendar {height: 1.5em !important;width: 1.5em !important;}
 ```  
 
 
 
-#### Attachment Upload Button Size
+#### Attachment Upload Button Size (Desktop Only)
 
 ```css
 .slds-scope .slds-file-selector_files .slds-file-selector__button {
@@ -182,36 +179,7 @@ Mobile
 #### Checkbox/Radio Button Size
 
 ```css
-/* Adjust Radio Button Outer Size */
-.slds .slds-form-element__control .slds-radio .slds-radio_icon {
-	height: 60px !important;
-  	width: 60px !important;
-}
-/* Adjust Radio Button Inner Icon Size */
-.slds-scope .slds-icon_small {
-	width: 3.3rem !important;
-        height: 3.3rem !important;
-}
-/* Adjust Checkbox Size */
-.slds .slds-form-element__control .slds-checkbox .slds-checkbox_faux {
-	width: 3.3em;
-	height: 3.3em;
-}
-```
-
-#### Checkbox Check Size
-
-```css
-.slds-scope .slds-checkbox [type="checkbox"]:checked + .slds-checkbox__label .slds-checkbox_faux::after {
-height: 12px;
-width: 24px;
-position: absolute;
-top: 43%;
-left: 50%;
-transform: translate3d(-50%,-50%,0) rotate(-50deg);
-border-bottom: 2px solid #0070d2;
-border-left: 2px solid #0070d2;
-}
+/* Adjust Radio Button Outer Size */.slds-scope .slds-form-element__control .slds-radio .slds-radio_icon {height: 60px !important;width: 60px !important;}/* Adjust Radio Button Inner Icon Size */.slds-scope .slds-icon_small {width: 3.3rem !important;height: 3.3rem !important;margin: 0px !important;}/* Adjust Checkbox Size */.slds-scope .slds-form-element__control .slds-checkbox .slds-checkbox_faux {width: 3.3em;height: 3.3em;}/* Adjust Checkmark Size */.slds-scope .slds-checkbox [type="checkbox"]:checked + .slds-checkbox__label .slds-checkbox_faux::after {height: 1rem !important;width: .5rem !important;transform: translate3d(-50%,-50%,0) rotate(45deg) scaleX(-1) !important;}
 ```
 
 #### Date Input Selector Icon Size
@@ -231,47 +199,19 @@ This CSS Snippet section will allow you to customize the color of text, backgrou
 #### Save Buttons Bar/ Header Color
 
 ```css
-.slds .buttons-fixed {
+.slds-scope .buttons-fixed {
     background-color: #009ACD;
 }
 ```
 
-
-#### Reduce White Space Between Questions
+#### Reduce White Space Between Questions Vertically
 
 ```css
-/******************
-* Less Whitespace *
-******************/
-/* replace sectionRandomId with the 8-character alphanumeric disco__Section__c.disco__RandomID__c field of the desired section. */
-.slds-scope .form-section.slds-card[data-randomid="sectionRandomId"] {
-background-color: transparent;
-border: none;
-box-shadow: none;
-margin: 0px;
-}
-
-.slds-scope #formContent .form-section[data-randomid="sectionRandomId"] .slds-card__footer {
-padding: 0px;
-margin: 0px;
-border-width: 0px;
-}
-
-.slds-scope #formContent .form-section[data-randomid="sectionRandomId"] .slds-card__body.OR-card__body {
-border-radius: 0.25rem;
-}
-
-.slds-scope .form-section[data-randomid="sectionRandomId"] .slds-card__footer .slds-m-top_small {
-margin: 0px;
-}
-
-.form-section[data-randomid="sectionRandomId"] .control-group .clear-float {
-line-height: 2px; /* increase pixels for more vertical space between questions*/
-}
+/******************* Less Whitespace Vertically *******************/.form-section .control-group {line-height: 6px; /* increase pixels for more vertical space between questions*/}
 ```
 
 
-#### Remove Gear Icon and Menu from View Form page
+#### Remove Gear Icon and Menu from View Form page (Dekstop Only)
 
 ```css
 #mainForm #moreActionsBtn {
@@ -291,16 +231,14 @@ display: none!important;
 
 #### Remove "Refresh" Icon from Formula Fields
 
+Desktop
 ```css
-.slds-scope .slds-button.js-refresh-formula {
-display: none;
-}
-.slds-scope .control-group .controls .slds-form-element__control.formula-field input.slds-input {
-width: 100%;
-}
+.slds-scope .slds-button.js-refresh-formula {display: none;}.slds-scope .control-group .controls .slds-form-element__control.formula-field input.slds-input {width: 100%;}
 ```
-
-
+Mobile
+```css
+.js-refresh-formula {display: none !important;pointer-events: none;}
+```
 #### Prevent Users from Inserting New Records
 
 The following snippet allows you to hide the Add button while using Linked Sections with Compact Cards.
@@ -322,7 +260,7 @@ display: none;
 The following snippet allows you to hide the Add button while using Linked Sections WITHOUT Compact Cards
 
 ```css
-#formContent .form-section .slds-button.add-linked-section {
+.add-linked-section {
 display: none;
 }
 ```
@@ -333,19 +271,13 @@ display: none;
 #### Highlight Required Fields by Adding Red Borders
 
 ```css
-.slds-scope .form-section .control-group [required]{
-border-color: red;
-border-width: 2px;
-}
-#formContent h1.formName,
-#formContent h3.form-number {
-display: none;
-}
+.control-group [required]{border-color: red;border-width: 2px;}
 ```
 
 
 #### Change The Appearence of Formula Refresh Buttons
 
+Desktop
 ```css
 #formContent .slds-button.slds-button_icon.js-refresh-formula.slds-button_icon-border.input-btn {
 	width: 40px;
@@ -366,54 +298,9 @@ display: none;
 }
 ```
 
-
-#### Make Checkboxes Larger
+Mobile
 ```css
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox .slds-checkbox_faux {
-width: 30px;
-height: 30px;
-margin: 0px;
-}
-
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox--faux::after, 
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox__label .slds-checkbox--faux::after, 
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox__label .slds-checkbox_faux::after, 
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox_faux::after, 
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] ~ .slds-checkbox--faux::after, 
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] ~ .slds-checkbox_faux::after,
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-checkbox [type="checkbox"] ~ .slds-checkbox_faux::after {
-height: 10px;
-width: 20px;
-border-bottom: 5px solid #0070d2;
-border-left: 5px solid #0070d2;
-}
-
-@media screen and (max-width: 768px) {
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox__label.boolean-checkbox {
-justify-content: center;
-}
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element.formInput.answerValue.table-checkbox {
-margin: auto;
-}
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox .slds-checkbox_faux {
-width: 60px;
-height: 60px;
-margin: 0px;
-}
-
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox--faux::after, 
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox__label .slds-checkbox--faux::after, 
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox__label .slds-checkbox_faux::after, 
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox_faux::after, 
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] ~ .slds-checkbox--faux::after, 
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-form-element .slds-checkbox [type="checkbox"] ~ .slds-checkbox_faux::after,
-.slds-scope .form-section .control-group .controls:not(.controls-table) .slds-checkbox [type="checkbox"] ~ .slds-checkbox_faux::after {
-height: 20px;
-width: 40px;
-border-bottom: 10px solid #0070d2;
-border-left: 10px solid #0070d2;
-} 
-}
+.js-refresh-formula.slds-button_icon-border.input-btn {width: 49px;height: 37px;right: -49px;}.js-refresh-formula.slds-button_icon-border.input-btn::before {content: "Refresh";position: relative;top: 24px;font-size: 0.8em;}.js-refresh-formula.slds-button_icon-border.input-btn .js-formula-icon {fill: #c9c7c5;background-color: #c9c7c5;stroke: #c9c7c5;border-radius: 0.5em;position: relative;top: -0.8em;}
 ```
 
 
@@ -439,38 +326,35 @@ height: 100%;
 #### Form Template Name Color
 
 ```css
-h1.formName,
-h3.slds-text-heading--small {
-   color: #A95014; 
-}
+.template-name-width {color: #A95014;}
 ```
 
 
 #### Form Background Color
 
+Desktop
 ```css
-body#complete-form main {
-    background-color: #94E9E8;
-}
+body#complete-form main {background-color: #94E9E8;}
+```
+Mobile
+```css
+div#formContent {background-color: #94E9E8}
 ```
 
 #### Form Background Image
 
+Desktop
 ```css
-body#complete-form main{
- background: url('https://2j5zg2h1itk3tosw21k7acb1-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/formBgImage.jpg') no-repeat top left;
- background-size: cover;
- background-attachment: fixed;
-}
- 
-h1.formName {
- color: #fdfdfd;
- text-shadow: 2px 2px #d3d3d3;
-}
+body#complete-form main{background: url('https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg') no-repeat top left;background-size: cover;background-attachment: fixed;}
+```
+Mobile
+```css
+div#formContent {background: url('https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg') no-repeat top left;background-size: cover;background-attachment: fixed;}
 ```
 
-#### Form Logo
+#### Form Logo (png/jpg image size 50 X 46)
 
+Desktop
 ```css
 @media screen and (min-width: 400px) {
  .buttons-fixed:before {
@@ -491,15 +375,23 @@ h1.formName {
  }
 }
 ```
+Mobile
+```css
+@media screen and (min-width: 400px) {.formName:before {/* Replace the URL between the '' a a URL to your own image. */content: url('https://cdn2.hubspot.net/hubfs/2381843/Youreka/yWhiteLogo-711341-edited.png');/* If your image doesn't have a background color, you can set it here. */background: #913A93;display: block;width: 66px;height: 62px;top: 0;right: 0;position: absolute;padding-top: 10px;padding-left: 3px;}}
+```
 
 #### Form Width
 
+Desktop
 ```css
 .containerBox {
  width: 750px;
 }
 ```
-
+Mobile
+```css
+.containerBox {width: 750px !important;margin-left: 3% ;}
+```
 
 #### Section Header Font Color
 
