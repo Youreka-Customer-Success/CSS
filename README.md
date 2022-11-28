@@ -135,9 +135,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
 
 #### Button Border Radius & Color
 
-```diff
-# Desktop
-```
+Desktop
 ```css
 .slds-scope .slds-button_inverse,
 .slds-scope .slds-button_inverse:link,
@@ -157,9 +155,7 @@ This CSS Snippet section will allow you to customize various button and icon siz
  border: 0;
 }
 ```  
-```diff
-# Mobile
-```
+Mobile
 ```css
 .slds-button.slds-button_neutral.js-mobile-save.slds-m-top_x-large {border-radius: 15px;background: #ff9900;color: #fff;border: 0;}
 ``` 
