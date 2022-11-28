@@ -127,10 +127,13 @@ This CSS Snippet section will allow you to customize various button and icon siz
 ```     
    
 
-#### Select/ Next Page Arrows Size 
+#### Next Page Arrow Icon Size 
 
 ```css
-.nextBtn .slds-button__icon {width: 2.15em !important;height: 2.44em !important;}.prevBtn .slds-button__icon {width: 2.15em !important;height: 2.44em !important;}
+/* Next Page Arrow Icon */
+.nextBtn .slds-button__icon {width: 2.15em !important;height: 2.44em !important;}
+/* Previous Page Arrow Icon */
+.prevBtn .slds-button__icon {width: 2.15em !important;height: 2.44em !important;}
 ```  
 
 #### Button Border Radius & Color
