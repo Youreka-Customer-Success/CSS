@@ -111,7 +111,9 @@ In order for this CSS to work, you need to replace the randomid with the randomi
 #### Checkbox/Radio Button Option Label Text Size
 
 ```css
-.slds-form-element__label.slds-radio__label.slds-radio__label_target, .slds-form-element__label {font-size: 1.5em !important;}
+.slds-form-element__label.slds-radio__label.slds-radio__label_target, .slds-form-element__label {
+font-size: 1.5em !important;
+}
 ```
 <br/>
 
@@ -131,9 +133,13 @@ This CSS Snippet section will allow you to customize various button and icon siz
 
 ```css
 /* Next Page Arrow Icon */
-.nextBtn .slds-button__icon {width: 2.15em !important;height: 2.44em !important;}
+.nextBtn .slds-button__icon {
+width: 2.15em !important;height: 2.44em !important;
+}
 /* Previous Page Arrow Icon */
-.prevBtn .slds-button__icon {width: 2.15em !important;height: 2.44em !important;}
+.prevBtn .slds-button__icon {
+width: 2.15em !important;height: 2.44em !important;
+}
 ```  
 
 #### Button Border Radius & Color
@@ -160,12 +166,19 @@ Desktop
 ```  
 Mobile
 ```css
-.slds-button.slds-button_neutral.js-mobile-save.slds-m-top_x-large {border-radius: 15px;background: #ff9900;color: #fff;border: 0;}
+.slds-button.slds-button_neutral.js-mobile-save.slds-m-top_x-large {
+border-radius: 15px;
+background: #ff9900;
+color: #fff;border: 0;
+}
 ``` 
 #### Button Icon Adjustments (Calender Icon, Geolocation Icon, Upload Files Icon)
 
 ```css
-.slds-scope .slds-button__icon_left, .slds-button__icon_large, .input-calendar {height: 1.5em !important;width: 1.5em !important;}
+.slds-scope .slds-button__icon_left, .slds-button__icon_large, .input-calendar {
+height: 1.5em !important;
+width: 1.5em !important;
+}
 ```  
 
 
@@ -182,7 +195,28 @@ Mobile
 #### Checkbox/Radio Button Size
 
 ```css
-/* Adjust Radio Button Outer Size */.slds-scope .slds-form-element__control .slds-radio .slds-radio_icon {height: 60px !important;width: 60px !important;}/* Adjust Radio Button Inner Icon Size */.slds-scope .slds-icon_small {width: 3.3rem !important;height: 3.3rem !important;margin: 0px !important;}/* Adjust Checkbox Size */.slds-scope .slds-form-element__control .slds-checkbox .slds-checkbox_faux {width: 3.3em;height: 3.3em;}/* Adjust Checkmark Size */.slds-scope .slds-checkbox [type="checkbox"]:checked + .slds-checkbox__label .slds-checkbox_faux::after {height: 1rem !important;width: .5rem !important;transform: translate3d(-50%,-50%,0) rotate(45deg) scaleX(-1) !important;}
+/* Adjust Radio Button Outer Size */
+.slds-scope .slds-form-element__control .slds-radio .slds-radio_icon {
+height: 60px !important;
+width: 60px !important;
+}
+/* Adjust Radio Button Inner Icon Size */
+.slds-scope .slds-icon_small {
+width: 3.3rem !important;
+height: 3.3rem !important;
+margin: 0px !important;
+}
+/* Adjust Checkbox Size */
+.slds-scope .slds-form-element__control .slds-checkbox .slds-checkbox_faux {
+width: 3.3em;
+height: 3.3em;
+}
+/* Adjust Checkmark Size */
+.slds-scope .slds-checkbox [type="checkbox"]:checked + .slds-checkbox__label .slds-checkbox_faux::after {
+height: 1rem !important;
+width: .5rem !important;
+transform: translate3d(-50%,-50%,0) rotate(45deg) scaleX(-1) !important;
+}
 ```
 
 #### Date Input Selector Icon Size
@@ -210,7 +244,10 @@ This CSS Snippet section will allow you to customize the color of text, backgrou
 #### Reduce White Space Between Questions Vertically
 
 ```css
-/******************* Less Whitespace Vertically *******************/.form-section .control-group {line-height: 6px; /* increase pixels for more vertical space between questions*/}
+/******************* Less Whitespace Vertically *******************/
+.form-section .control-group {
+line-height: 6px; /* increase/decrease pixels to adjust vertical space between questions*/
+}
 ```
 
 
@@ -236,11 +273,18 @@ display: none!important;
 
 Desktop
 ```css
-.slds-scope .slds-button.js-refresh-formula {display: none;}.slds-scope .control-group .controls .slds-form-element__control.formula-field input.slds-input {width: 100%;}
+.slds-scope .slds-button.js-refresh-formula {
+display: none;
+}
+.slds-scope .control-group .controls .slds-form-element__control.formula-field input.slds-input {
+width: 100%;
+}
 ```
 Mobile
 ```css
-.js-refresh-formula {display: none !important;pointer-events: none;}
+.js-refresh-formula {
+display: none !important;pointer-events: none;
+}
 ```
 #### Prevent Users from Inserting New Records
 
@@ -274,7 +318,9 @@ display: none;
 #### Highlight Required Fields by Adding Red Borders
 
 ```css
-.control-group [required]{border-color: red;border-width: 2px;}
+.control-group [required]{
+border-color: red;border-width: 2px;
+}
 ```
 
 
@@ -303,7 +349,24 @@ Desktop
 
 Mobile
 ```css
-.js-refresh-formula.slds-button_icon-border.input-btn {width: 49px;height: 37px;right: -49px;}.js-refresh-formula.slds-button_icon-border.input-btn::before {content: "Refresh";position: relative;top: 24px;font-size: 0.8em;}.js-refresh-formula.slds-button_icon-border.input-btn .js-formula-icon {fill: #c9c7c5;background-color: #c9c7c5;stroke: #c9c7c5;border-radius: 0.5em;position: relative;top: -0.8em;}
+.js-refresh-formula.slds-button_icon-border.input-btn {
+width: 49px;height: 37px;
+right: -49px;
+}
+.js-refresh-formula.slds-button_icon-border.input-btn::before {
+content: "Refresh";
+position: relative;
+top: 24px;
+font-size: 0.8em;
+}
+.js-refresh-formula.slds-button_icon-border.input-btn .js-formula-icon {
+fill: #c9c7c5;
+background-color: #c9c7c5;
+stroke: #c9c7c5;
+border-radius: 0.5em;
+position: relative;
+top: -0.8em;
+}
 ```
 
 
@@ -337,22 +400,33 @@ height: 100%;
 
 Desktop
 ```css
-body#complete-form main {background-color: #94E9E8;}
+body#complete-form main {
+background-color: #94E9E8;
+}
 ```
 Mobile
 ```css
-div#formContent {background-color: #94E9E8}
+div#formContent {
+background-color: #94E9E8
+}
 ```
 
 #### Form Background Image
 
 Desktop
 ```css
-body#complete-form main{background: url('https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg') no-repeat top left;background-size: cover;background-attachment: fixed;}
+body#complete-form main{
+background: url('https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg') no-repeat top left;
+background-size: cover;
+background-attachment: fixed;
+}
 ```
 Mobile
 ```css
-div#formContent {background: url('https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg') no-repeat top left;background-size: cover;background-attachment: fixed;}
+div#formContent {
+background: url('https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg') no-repeat top left;
+background-size: cover;
+background-attachment: fixed;}
 ```
 
 #### Form Logo (png/jpg image size 50 X 46)
@@ -380,7 +454,19 @@ Desktop
 ```
 Mobile
 ```css
-@media screen and (min-width: 400px) {.formName:before {/* Replace the URL between the '' a a URL to your own image. */content: url('https://cdn2.hubspot.net/hubfs/2381843/Youreka/yWhiteLogo-711341-edited.png');/* If your image doesn't have a background color, you can set it here. */background: #913A93;display: block;width: 66px;height: 62px;top: 0;right: 0;position: absolute;padding-top: 10px;padding-left: 3px;}}
+@media screen and (min-width: 400px) {.formName:before 
+{/* Replace the URL between the '' a a URL to your own image. */
+content: url('https://cdn2.hubspot.net/hubfs/2381843/Youreka/yWhiteLogo-711341-edited.png');
+/* If your image doesn't have a background color, you can set it here. */
+background: #913A93;
+display: block;
+width: 66px;
+height: 62px;
+top: 0;
+right: 0;
+position: absolute;
+padding-top: 10px;
+padding-left: 3px;}}
 ```
 
 #### Form Width
@@ -442,5 +528,7 @@ span.title-text {
 #### Checkbox and Radio Button Label Colors
 
 ```css
-.slds-form-element__label, .slds-form-element__label {color: #FFA500 !important;}
+.slds-form-element__label, .slds-form-element__label {
+color: #FFA500 !important;
+}
 ```
