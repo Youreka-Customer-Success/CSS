@@ -435,21 +435,9 @@ span.title-text {
 }
 ```
 
-#### Attachments Count Badge, Attachments, Multi-select Picklist Options Text & Background Color
-
-```css
-.slds .controls .selected-files .file-preview, 
-.slds .controls .slds-file-selector .slds-badge.slds-theme--info,
-.ms-selectable .ui-widget-content.ui-selectee.ui-selected {
-    color: #75A05F;  
-    background-color: #fff;
-}
-```
 
 #### Checkbox and Radio Button Label Colors
 
 ```css
-.slds-scope .slds-form-element__control .slds-checkbox .slds-form-element__label, .slds-scope .slds-form-element__control .radio-list .slds-form-element__label { 
-    color: #FFA500 !important;  
-}
+.slds-form-element__label, .slds-form-element__label {color: #FFA500 !important;}
 ```
