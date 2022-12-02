@@ -412,9 +412,9 @@ background-color: #94E9E8
 }
 ```
 
-#### Form Background Image
+#### Form Background Image - Desktop
 
-Desktop
+
 ```css
 body#complete-form main{
 background: url('https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg') no-repeat top left;
@@ -422,7 +422,7 @@ background-size: cover;
 background-attachment: fixed;
 }
 ```
-Mobile
+#### Form Background Image - Mobile
 ```css
 div#formContent {
 background: url('https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg') no-repeat top left;
