@@ -397,15 +397,15 @@ height: 100%;
 ```
 
 
-#### Form Background Color
+#### Form Background Color - Desktop
 
-Desktop
+
 ```css
 body#complete-form main {
 background-color: #94E9E8;
 }
 ```
-Mobile
+#### Form Background Color - Mobile
 ```css
 div#formContent {
 background-color: #94E9E8
