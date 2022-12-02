@@ -430,9 +430,9 @@ background-size: cover;
 background-attachment: fixed;}
 ```
 
-#### Form Logo (png/jpg image size 50 X 46)
+#### Form Logo (png/jpg image size 50 X 46) - Desktop
 
-Desktop
+
 ```css
 @media screen and (min-width: 400px) {
  .buttons-fixed:before {
@@ -453,7 +453,7 @@ Desktop
  }
 }
 ```
-Mobile
+#### Form Logo (png/jpg image size 50 X 46) - Mobile
 ```css
 @media screen and (min-width: 400px) {.formName:before 
 {/* Replace the URL between the '' a a URL to your own image. */
