@@ -325,9 +325,8 @@ border-color: red;border-width: 2px;
 ```
 
 
-#### Change The Appearence of Formula Refresh Buttons
+#### Change The Appearence of Formula Refresh Buttons - Desktop
 
-Desktop
 ```css
 #formContent .slds-button.slds-button_icon.js-refresh-formula.slds-button_icon-border.input-btn {
 	width: 40px;
@@ -348,7 +347,7 @@ Desktop
 }
 ```
 
-Mobile
+#### Change The Appearence of Formula Refresh Buttons - Mobile
 ```css
 .js-refresh-formula.slds-button_icon-border.input-btn {
 width: 49px;height: 37px;
