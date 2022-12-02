@@ -142,9 +142,9 @@ width: 2.15em !important;height: 2.44em !important;
 }
 ```  
 
-#### Button Border Radius & Color
+#### Button Border Radius & Color - Desktop
 
-Desktop
+
 ```css
 .slds-scope .slds-button_inverse,
 .slds-scope .slds-button_inverse:link,
@@ -164,7 +164,8 @@ Desktop
  border: 0;
 }
 ```  
-Mobile
+#### Button Border Radius & Color - Mobile
+
 ```css
 .slds-button.slds-button_neutral.js-mobile-save.slds-m-top_x-large {
 border-radius: 15px;
