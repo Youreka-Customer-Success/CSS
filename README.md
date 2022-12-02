@@ -470,15 +470,16 @@ padding-top: 10px;
 padding-left: 3px;}}
 ```
 
-#### Form Width
+#### Form Width - Desktop
 
-Desktop
+
 ```css
 .containerBox {
  width: 750px;
 }
 ```
-Mobile
+#### Form Width - Mobile
+
 ```css
 .containerBox {width: 750px !important;margin-left: 3% ;}
 ```
