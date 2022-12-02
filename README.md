@@ -270,9 +270,9 @@ display: none!important;
 ```
 
 
-#### Remove "Refresh" Icon from Formula Fields
+#### Remove "Refresh" Icon from Formula Fields - Desktop
 
-Desktop
+
 ```css
 .slds-scope .slds-button.js-refresh-formula {
 display: none;
@@ -281,7 +281,8 @@ display: none;
 width: 100%;
 }
 ```
-Mobile
+#### Remove "Refresh" Icon from Formula Fields - Mobile
+
 ```css
 .js-refresh-formula {
 display: none !important;pointer-events: none;
