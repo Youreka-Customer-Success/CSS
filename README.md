@@ -600,6 +600,125 @@ See https://support.youreka.io/hc/en-us/articles/11073754516759 for more informa
           .form-section div.control-group:first-child {
             margin-top: -6px !important;
           }
-  
   } 
+```
+
+#### Linked Section Table View
+See https://support.youreka.io/hc/en-us/articles/11073754516759 for more information.
+```css
+ .form-section .slds-card__body .label-width {
+   display: none;
+ }
+
+ p {
+   text-align: center;
+   color: rgb(57, 89, 125);
+   font-family: "Salesforce Sans", Arial, sans-serif;
+   padding-top: 1px !important;
+ }
+
+ .form-section[data-section-index="0"] .slds-card__body .label-width {
+   display: initial !important;
+ }
+
+ div.form-section:nth-child(4)>div:nth-child(3)>div:nth-child(1) {
+   margin-left: 121px;
+   page-break-inside: avoid;
+ }
+
+ .slds-card__body[data-placeholdersection="true"] {
+   justify-content: center;
+   display: flex;
+ }
+
+ div.form-section:nth-child(3)>div:nth-child(3) {
+   justify-content: center;
+   display: flex;
+ }
+
+ div[data-question-text="Rich-Free-Text"] {
+   width: 160% !important;
+   display: table;
+ }
+
+ .slds-scope .slds-card__body.OR-card__body {
+   background-color: #fff;
+   border-top: 2px solid rgb(216, 221, 230);
+   border-bottom: 2px solid rgb(216, 221, 230);
+   padding-top: 6px;
+   padding-bottom: -9px !important;
+   margin-bottom: -15px !important;
+   width: 100%;
+ }
+
+ .slds-scope .slds-input {
+   background-color: #fff;
+   border: 1px solid #dddbda;
+   border-radius: .25rem;
+   width: 180% !important;
+   ;
+   transition: border .1s linear, background-color .1s linear;
+   display: inline-block;
+   padding: 0rem 1rem 0 .75rem;
+   line-height: 1.875rem;
+   min-height: calc(1.875rem + (1px * 2));
+   margin-left: 9px;
+   margin-right: 9px;
+   text-align: center;
+ }
+
+ .slds-scope .slds-card__body.OR-card__body {
+   background-color: #fff;
+   border-top: 2px solid rgb(216, 221, 230);
+   border-bottom: 2px solid rgb(216, 221, 230);
+   width: 100%;
+   height: 5.3rem !important;
+   padding-top: 18px;
+ }
+
+ .slds-scope .slds-card__footer.OR-card__footer {
+   border-top: none;
+   margin-top: 0;
+   background-color: rgb(244, 246, 249);
+   margin-bottom: -60px
+ }
+
+ .form-horizontal .controls {
+   margin-top: 0px !important;
+   text-align: left;
+ }
+
+ div.form-section:nth-child(4)>div:nth-child(3) {
+   height: 75px !important;
+ }
+ 
+ /* Set Column Count and Column Gap Here */
+ .form-section .slds-card__body {
+  column-count: 6;
+  column-gap: 0px;
+}
+
+ .add-linked-section {
+   margin-left: 36px !important;
+ }
+
+ .slds-scope .slds-m-bottom_small {
+   margin-bottom: 1.8rem !important;
+ }
+
+ #formContent>div:first-of-type .title-text {
+   display: block !important;
+ }
+
+ #formContent>div:first-of-type .slds-card__footer {
+   margin-bottom: 3px;
+ }
+
+ .title-text {
+   display: none;
+ }
+
+ .slds-scope .slds-card__header.OR-card__header {
+   margin-bottom: 9px !important;
+ }
 ```
