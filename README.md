@@ -537,11 +537,7 @@ color: #FFA500 !important;
 
 #### Add More than Two Columns to a Standard Section
 See https://support.youreka.io/hc/en-us/articles/11073754516759 for more information.
-```css
- /* CSS Youreka Table */ 
- 
-
-
+```css 
  .form-section .slds-card__body {
     column-count: 3;
     column-gap: 0px;
@@ -564,7 +560,6 @@ See https://support.youreka.io/hc/en-us/articles/11073754516759 for more informa
     page-break-inside: avoid;
     }
 
- 
   @media only screen and (min-width: 300px) and (max-width: 1370px) and (orientation: portrait) {
       .form-section .slds-card__body {
             column-count: 3;
@@ -582,13 +577,9 @@ See https://support.youreka.io/hc/en-us/articles/11073754516759 for more informa
       }
 
       .form-section div.control-group:first-child {
-
         margin-top: -6px !important;
-      }
-
-      
+      }     
   }
-
 
   @media only screen and (min-width: 934px) and (max-width: 1370px) and (orientation: landscape) {
 
