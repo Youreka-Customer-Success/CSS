@@ -604,7 +604,7 @@ See https://support.youreka.io/hc/en-us/articles/11073754516759 for more informa
 ```
 
 #### Linked Section Table View
-See https://support.youreka.io/hc/en-us/articles/11073754516759 for more information.
+See https://support.youreka.io/hc/en-us/articles/11078711682455 for more information.
 ```css
  .form-section .slds-card__body .label-width {
    display: none;
@@ -656,7 +656,6 @@ See https://support.youreka.io/hc/en-us/articles/11073754516759 for more informa
    border: 1px solid #dddbda;
    border-radius: .25rem;
    width: 180% !important;
-   ;
    transition: border .1s linear, background-color .1s linear;
    display: inline-block;
    padding: 0rem 1rem 0 .75rem;
@@ -703,7 +702,7 @@ See https://support.youreka.io/hc/en-us/articles/11073754516759 for more informa
  }
 
  .slds-scope .slds-m-bottom_small {
-   margin-bottom: 1.8rem !important;
+   margin-bottom: 1.8em !important;
  }
 
  #formContent>div:first-of-type .title-text {
