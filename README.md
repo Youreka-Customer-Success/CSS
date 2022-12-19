@@ -534,3 +534,81 @@ span.title-text {
 color: #FFA500 !important;
 }
 ```
+
+#### Add More than Two Columns to a Standard Section
+See https://support.youreka.io/hc/en-us/articles/11073754516759 for more information.
+```css
+ /* CSS Youreka Table */ 
+ 
+
+
+ .form-section .slds-card__body {
+    column-count: 3;
+    column-gap: 0px;
+    padding-top: 30px !important;
+  } 
+
+  .date {
+      width: 100%;
+  }
+
+  .right-addon {
+      width: 100%;
+  }
+
+  .slds-card__body > div:nth-child(1) {
+      height: 1530px;
+  }
+
+   .control-group {
+    page-break-inside: avoid;
+    }
+
+ 
+  @media only screen and (min-width: 300px) and (max-width: 1370px) and (orientation: portrait) {
+      .form-section .slds-card__body {
+            column-count: 3;
+            column-gap: 18px;
+            padding: 8px 4px 0px;
+      }
+
+      .control-group {
+          width: 102%;
+          page-break-inside: avoid;
+      }
+
+      .date, .right-addon  {
+          width: 100%;
+      }
+
+      .form-section div.control-group:first-child {
+
+        margin-top: -6px !important;
+      }
+
+      
+  }
+
+
+  @media only screen and (min-width: 934px) and (max-width: 1370px) and (orientation: landscape) {
+
+      .form-section .slds-card__body {
+            column-count: 3;
+                column-gap: 150px;
+          }
+
+          .control-group {
+              width: 102%;
+              page-break-inside: avoid;
+          }
+
+          .date, .right-addon {
+              width: 100%;
+          }
+
+          .form-section div.control-group:first-child {
+            margin-top: -6px !important;
+          }
+  
+  } 
+```
