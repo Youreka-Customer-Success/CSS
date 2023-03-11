@@ -314,7 +314,8 @@ display: none;
 }
 ```
 
-The following snippet allows you to hide the Add button after the first Linked Section record is added. Replace "woli" with the section name.
+#### Prevent Users from Inserting more than one New Record
+Replace "woli" with the section name.
 
 ```css
 div[data-section-name="woli"] div:nth-of-type(2) button:nth-child(2){
