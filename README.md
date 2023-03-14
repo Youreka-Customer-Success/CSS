@@ -250,6 +250,83 @@ This CSS Snippet section will allow you to customize the color of text, backgrou
 line-height: 6px; /* increase/decrease pixels to adjust vertical space between questions*/
 }
 ```
+#### Make entire form read-only
+
+```css
+/******************* Less Whitespace Vertically *******************/
+/* hides: text, text area, multiselect picklist, single-select picklist
+e-sig container, phone, date, date-time, number */
+input:not([type="button"]),
+select,
+textarea,
+.sig-answer-container,
+.selectable-multiselect {
+  background-color: #dbdada !important;
+  pointer-events: none !important;
+  user-select: none !important;
+}
+
+
+/* disables: camera */
+.js-att-photo button.question-camera_toucharea  {
+  background-color: #dbdada !important;
+  pointer-events: none !important;
+  user-select: none !important;
+}
+
+/* disables: submit in form*/
+.save-button-container button.js-mobile-save  {
+  background-color: #dbdada !important;
+  pointer-events: none !important;
+  user-select: none !important;
+}
+
+/* hides: submit in menu*/
+.complete-form-menu-list ion-menu-toggle.md:nth-of-type(1)  {
+  display: none !important;
+}
+
+/* hides: save and close in menu*/
+.complete-form-menu-list ion-menu-toggle.md:nth-of-type(2)  {
+  display: none !important;
+}
+
+/* hides: quick save in menu*/
+.complete-form-menu-list ion-menu-toggle.md:nth-of-type(3)  {
+  display: none !important;
+}
+
+/* hides: checkbox, radio buttons, geo-location (button) file upload */
+.slds-checkbox,
+.table-radio,
+.js-geolocation,
+.slds-file-selector__dropzone {
+  pointer-events: none !important;
+  user-select: none !important;
+}
+
+/* hides: add link section button, save & close, submit, nav-bar */
+.add-linked-section,
+#quickSaver,
+#normalSaver,
+.js-toggle-button {
+  visibility: hidden !important;
+}
+
+/*positions cancel button to center of app header*/
+#cancelBtn {
+  position: relative;
+  left: 105px;
+  top: 2px;
+}
+/* Indicates Form is Read Only */
+.form-number:after {
+  content: " - Read Only" !important;
+  font-size: 1rem !important;
+  color: red !important;
+  font-weight: bold !important;
+}
+```
 
 
 #### Remove Gear Icon and Menu from View Form page (Dekstop Only)
