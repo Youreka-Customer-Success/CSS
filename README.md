@@ -386,7 +386,7 @@ display: none;
 The following snippet allows you to hide the Add button while using Linked Sections WITHOUT Compact Cards
 
 ```css
-.add-linked-section {
+#formContent .add-linked-section {
 display: none;
 }
 ```
