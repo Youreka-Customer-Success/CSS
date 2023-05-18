@@ -181,6 +181,44 @@ height: 1.5em !important;
 width: 1.5em !important;
 }
 ```  
+#### Hamburger Menu Adjustments - Hide Save/Submit Buttons (Blue App)
+
+```css
+/*hide Submit*/
+.side-menu-list ion-item:nth-child(1) {
+    display: none;
+}
+
+/*hide save and close button*/
+.side-menu-list ion-item:nth-child(2) {
+    display: none;
+}
+
+/*hide quick save button*/
+.side-menu-list ion-item:nth-child(3) {
+    display: none;
+}
+```  
+
+#### Hamburger Menu Adjustments - Hide Save/Submit Buttons (White App)
+
+```css
+/* hides: submit in menu*/
+.complete-form-menu-list ion-menu-toggle.md:nth-of-type(1)  {
+  display: none !important;
+}
+
+/* hides: save and close in menu*/
+.complete-form-menu-list ion-menu-toggle.md:nth-of-type(2)  {
+  display: none !important;
+}
+
+/* hides: quick save in menu*/
+.complete-form-menu-list ion-menu-toggle.md:nth-of-type(3)  {
+  display: none !important;
+}
+``` 
+
 
 
 
