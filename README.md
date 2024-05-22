@@ -204,17 +204,17 @@ width: 1.5em !important;
 
 ```css
 /* hides: submit in menu*/
-.complete-form-menu-list ion-menu-toggle.md:nth-of-type(1)  {
+.complete-form-menu-list ion-menu-toggle:nth-of-type(1)  {
   display: none !important;
 }
 
 /* hides: save and close in menu*/
-.complete-form-menu-list ion-menu-toggle.md:nth-of-type(2)  {
+.complete-form-menu-list ion-menu-toggle:nth-of-type(2)  {
   display: none !important;
 }
 
 /* hides: quick save in menu*/
-.complete-form-menu-list ion-menu-toggle.md:nth-of-type(3)  {
+.complete-form-menu-list ion-menu-toggle:nth-of-type(3)  {
   display: none !important;
 }
 ``` 
