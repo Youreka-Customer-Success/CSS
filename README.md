@@ -258,6 +258,17 @@ transform: translate3d(-50%,-50%,0) rotate(45deg) scaleX(-1) !important;
 }
 ```
 
+#### Radio Button Color
+
+```css
+
+/* Adjust Radio Button Color */
+
+#complete-form .slds-radio.radio-list input[type="radio"][checked="checked"]:disabled + .slds-radio__label svg {
+fill: #05395a !important;
+}
+```
+
 #### Date Input Selector Icon Size
 
 ```css
