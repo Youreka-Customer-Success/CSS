@@ -523,6 +523,22 @@ height: 100%;
 }
 ```
 
+#### Adjust The Size of Picklist Questions
+
+```css
+/*******************
+* Wider Picklists *
+*******************/
+.slds-scope .form-horizontal .slds-form-element__control .slds-select_container {
+  max-width: 500px;
+  width: 500px;
+}
+.slds-scope .slds-select_container .slds-select {
+  max-width: 500px;
+  width: 500px;
+}
+```
+
 
 #### Form Template Name Color
 
