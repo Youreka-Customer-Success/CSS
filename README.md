@@ -444,9 +444,7 @@ display: none;
 Replace "woli" with the section name.
 
 ```css
-div[data-section-name="woli"] div:nth-of-type(2) button:nth-child(2){
-display: none;
-}
+div[data-section-name="woli"] > div:nth-of-type(2) button.add-linked-section:nth-child(2) { display: none; }
 ```
 
 
