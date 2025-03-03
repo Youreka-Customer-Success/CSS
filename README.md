@@ -127,7 +127,14 @@ This CSS Snippet section will allow you to customize various button and icon siz
 ```css
 .slds-scope .buttons-fixed button {line-height: 3.5em;} 
 ```     
-   
+ 
+#### Header Buttons to Bottom (Desktop Only)
+```css
+span.buttons-fixed:has(> div.nav-container) {
+     bottom: 0;
+     top: unset;
+} 
+```
 
 #### Next Page Arrow Icon Size 
 
