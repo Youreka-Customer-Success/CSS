@@ -393,6 +393,201 @@ textarea,
 }
 ```
 
+#### Change the labels of Gear Menu items from View Form page (Dekstop Only)
+
+```css
+/* archive */
+
+#lockArchiveBtn .slds-truncate {
+  visibility: hidden;
+  position: relative;
+
+  /* disable SLDS truncation */
+  overflow: visible;
+  white-space: normal;
+  text-overflow: clip;
+  max-width: none;
+}
+
+#lockArchiveBtn .slds-truncate::after {
+  content: "Archives";
+  visibility: visible;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap; /* keep label clean */
+}
+
+/* generate PDF */
+
+
+#createPDFBtn .slds-truncate {
+  visibility: hidden;
+  position: relative;
+
+  /* disable SLDS truncation */
+  overflow: visible;
+  white-space: normal;
+  text-overflow: clip;
+  max-width: none;
+}
+
+#createPDFBtn .slds-truncate::after {
+  content: "Générer un PDF";
+  visibility: visible;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap; /* keep label clean */
+}
+
+
+/* Public URL */
+
+
+#publicURLBtn .slds-truncate {
+  visibility: hidden;
+  position: relative;
+
+  /* disable SLDS truncation */
+  overflow: visible;
+  white-space: normal;
+  text-overflow: clip;
+  max-width: none;
+}
+
+#publicURLBtn .slds-truncate::after {
+  content: "URL Publique";
+  visibility: visible;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap; /* keep label clean */
+}
+
+/* clone */
+
+
+#cloneBtn .slds-truncate {
+  visibility: hidden;
+  position: relative;
+
+  /* disable SLDS truncation */
+  overflow: visible;
+  white-space: normal;
+  text-overflow: clip;
+  max-width: none;
+}
+
+#cloneBtn .slds-truncate::after {
+  content: "Cloner";
+  visibility: visible;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap; /* keep label clean */
+}
+
+
+/* delete */
+
+
+#deleteBtn .slds-truncate {
+  visibility: hidden;
+  position: relative;
+
+  /* disable SLDS truncation */
+  overflow: visible;
+  white-space: normal;
+  text-overflow: clip;
+  max-width: none;
+}
+
+#deleteBtn .slds-truncate::after {
+  content: "Supprimer";
+  visibility: visible;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap; /* keep label clean */
+}
+
+
+/* Enable on Mobile */
+
+
+#enableMobileBtn .slds-truncate {
+  visibility: hidden;
+  position: relative;
+
+  /* disable SLDS truncation */
+  overflow: visible;
+  white-space: normal;
+  text-overflow: clip;
+  max-width: none;
+}
+
+#enableMobileBtn .slds-truncate::after {
+  content: "Activer sur mobile";
+  visibility: visible;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap; /* keep label clean */
+}
+
+
+/* Edit Form Properties */
+
+
+#editPropertiesBtn .slds-truncate {
+  visibility: hidden;
+  position: relative;
+
+  /* disable SLDS truncation */
+  overflow: visible;
+  white-space: normal;
+  text-overflow: clip;
+  max-width: none;
+}
+
+#editPropertiesBtn .slds-truncate::after {
+  content: "Modifier les propriétés du formulaire";
+  visibility: visible;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap; /* keep label clean */
+}
+
+
+/* View Form Properties */
+
+
+#viewPropertiesBtn .slds-truncate {
+  visibility: hidden;
+  position: relative;
+
+  /* disable SLDS truncation */
+  overflow: visible;
+  white-space: normal;
+  text-overflow: clip;
+  max-width: none;
+}
+
+#viewPropertiesBtn .slds-truncate::after {
+  content: "Afficher les propriétés du formulaire";
+  visibility: visible;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap; /* keep label clean */
+}
+
+
+```
+
+
 
 #### Prevent Users from Removing Linked Sections from Records
 
