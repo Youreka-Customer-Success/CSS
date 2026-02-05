@@ -392,6 +392,40 @@ textarea,
     display: none;
 }
 ```
+#### Change label for the Quck Save Button (Dekstop Only)
+
+```css
+#quickSaveBtn {
+  position: relative;
+  font-size: 0; /* hides original text */
+}
+
+#quickSaveBtn::after {
+  content: "Enregistrement rapide";
+  font-size: 0.875rem;      /* SLDS default */
+  line-height: 1;
+  color: inherit;           /* keeps hover/focus color */
+  pointer-events: none;
+}
+```
+#### Change labels for Edit and Lock buttons (Dekstop Only)
+
+```css
+#cfBtn,
+#lockBtn {
+font-size: 0; /* hide original text */
+}
+
+#cfBtn::after {
+content: "Modifier";
+font-size: 14px; /* restore text size */
+}
+
+#lockBtn::after {
+content: "Verrouillage";
+font-size: 14px;
+}
+```
 
 #### Change the labels of Gear Menu items from View Form page (Dekstop Only)
 
