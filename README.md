@@ -392,7 +392,7 @@ textarea,
     display: none;
 }
 ```
-#### Change label for the Quck Save Button (Dekstop Only)
+#### Change label for the Quick Save Button (Dekstop Only)
 
 ```css
 #quickSaveBtn {
